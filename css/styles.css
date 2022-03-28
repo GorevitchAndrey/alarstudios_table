@@ -1,0 +1,96 @@
+html,
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+p {
+  margin-block-start: 0;
+  text-indent: 1rem;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: lightgray;
+  width: 40px;
+  margin: 1.5rem 0 1rem 0;
+}
+
+#root {
+  display: flex;
+  height: 100%;
+}
+
+#main-page {
+  flex-grow: 1;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar > a {
+  margin: 0.5rem 0;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.table-container__table {
+  margin-top: 20px;
+  height: 100%;
+}
+
+.table-container__add-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-container__add-block, .table-container__table{
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 3px;
+  background-color: rgb(234, 247, 255);
+}
+
+table, th, td {
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+th, td {
+  height: 50px;
+  width: 150px;
+  padding: 0 20px;
+}
+
+.button-block {
+  margin-top: 20px;
+}
+
+.errorBlock{ 
+  color: rgb(216, 0, 0);
+}
+
+.edit-area {
+  border: none;
+  outline: none;
+}
+
+.edit-td {
+  position: relative;
+  padding: 0;
+}
