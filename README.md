@@ -1,7 +1,9 @@
-Having trouble implementing SPA in native javascript
-To run, you need to open the index.html document in the browser.
+This is table on native JS with the ability to add, remove, edit fields, with validation.
 
+Having trouble implementing SPA in native javascript
+If want to try, you need to open the index.html document in the browser.
 To start the SPA, you must complete the following steps:
+
 1. In the router.js file, replace the routes object with:
 ```
 const routes = {
