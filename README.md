@@ -1,10 +1,8 @@
-Возникли проблемы с реализацией SPA на нативном javascript
-Данная реализация демонстрирует функциональную часть задания с таблицей.
-Для запуска нужно открыть документ index.html в браузере.
+Having trouble implementing SPA in native javascript
+To run, you need to open the index.html document in the browser.
 
-Для запуска SPA необходимо выполнить следующие пункты:
-
-1. В файле router.js заменить обьект routes на :
+To start the SPA, you must complete the following steps:
+1. In the router.js file, replace the routes object with:
 ```
 const routes = {
   404: "/pages/404.html",
@@ -12,21 +10,21 @@ const routes = {
   "/about": "/pages/about.html",
 };
 ```
-2. В файле pages/index.html разкоментировать html
+2. Uncomment html in pages/index.html file
 
-3. В файле index.js удалить содержимое контейнера:
+3. In the index.js file, delete the contents of the container:
 ```
 <div id="main-page">...</div>
 ```
 
-4. В файле createTable.js зазкоментировать 1ю и 188 строчки.
+4. Comment out lines 1 and 188 in the createTable.js file.
 
-5. для установки сервера нужно выполнить: 
+5. to install the server you need to run:
 ```
 sudo npm install -g http-server
 ```
 
-6. Для старта нужно выполнить: 
+6. To start, you need to do:
 ```
 http-server -c-1
 ```
